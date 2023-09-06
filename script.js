@@ -5,7 +5,6 @@ let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 formBtn.addEventListener('click',() =>{
     window.alert("Hello Word");
-    functiono();
     loginForm.classList.add('active');
 });
 formClose.addEventListener('click',() =>{
@@ -22,12 +21,6 @@ menu.addEventListener('click',()=>{
     navbar.classList.toggle('active');
 });
 
-const functiono = ()=>{
-    console.log('Running');
-}
-const functionoo = ()=>{
-    console.log('Running');
-}
 
 
 
