@@ -593,20 +593,20 @@ header{
   
   /* ends */
   
-  /* roadmap */
+  /* Cybersecurity */
   
-  .roadmap .box-container{
+  .Cybersecurity .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
   }
   
-  .roadmap .box-container .box{
+  .Cybersecurity .box-container .box{
     box-shadow: var(--box-shadow);
     border-radius: 2rem;
   }
   
-  .roadmap .box-container .box .image{
+  .Cybersecurity .box-container .box .image{
     height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -614,17 +614,17 @@ header{
     border-radius: 2rem 2rem 0 0;
   }
   
-  .roadmap .box-container .box .image img{
+  .Cybersecurity .box-container .box .image img{
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
   
-  .roadmap .box-container .box:hover .image img{
+  .Cybersecurity .box-container .box:hover .image img{
     transform: scale(1.1);
   }
   
-  .roadmap .box-container .box .image h3{
+  .Cybersecurity .box-container .box .image h3{
     font-size: 1.5rem;
     color: #444;
     position: absolute;
@@ -634,32 +634,32 @@ header{
     border-radius: 2rem 0 2rem 0;
   }
   
-  .roadmap .box-container .box .content{
+  .Cybersecurity .box-container .box .content{
     padding: 2rem 2rem;
     background: var(--secondary);
     border-radius: 0 0 2rem 2rem;
   }
   
-  .roadmap .box-container .box .content .icons{
+  .Cybersecurity .box-container .box .content .icons{
     margin-bottom: 1rem;
     align-items: center;
   }
   
-  .roadmap .box-container .box .content .icons a{
+  .Cybersecurity .box-container .box .content .icons a{
     font-size: 1.4rem;
     color: var(--primary-color);
   }
   
-  .roadmap .box-container .box .content .icons a i{
+  .Cybersecurity .box-container .box .content .icons a i{
     padding-right: .5rem;
   }
   
-  .roadmap .box-container .box .content h3{
+  .Cybersecurity .box-container .box .content h3{
     font-size: 2.2rem;
     color: var(--black);
   }
   
-  .roadmap .box-container .box .content p{
+  .Cybersecurity .box-container .box .content p{
     font-size: 1.5rem;
     color: var(--black);
     line-height: 2;
