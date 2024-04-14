@@ -150,8 +150,8 @@ header{
 }
 
 header .logo img{
-    height: 6rem;
-    margin-left: 100px;
+    height: 4rem;
+    margin-left: 0px;
     border-radius: 50%;
     text-decoration: none;
 }
@@ -855,4 +855,56 @@ header{
 }
 .credit span{
     color: #ecc00d;
+}
+@media only screen and (max-width: 360px) {
+  html {
+      font-size: 40%;
+  }
+
+  .home .content {
+      margin-left: 2rem;
+      margin-bottom: 15rem;
+  }
+
+  .contact .row .image img {
+      width: 25rem;
+      height: 25rem;
+  }
+
+  .footer .box-container {
+      justify-content: center;
+      gap: 5rem;
+  }
+
+  .footer .box-container .box {
+      flex: 1 1 20rem;
+  }
+
+  .footer .box-container .follow h3 {
+      width: auto;
+  }
+
+  .footer .box-container .follow a {
+      font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html {
+      font-size: 35%;
+  }
+
+  .home .content {
+      margin-left: 1rem;
+      margin-bottom: 10rem;
+  }
+
+  .contact .row .image img {
+      width: 20rem;
+      height: 20rem;
+  }
+
+  .footer .box-container .follow a {
+      font-size: 1.5rem;
+  }
 }
