@@ -7,7 +7,6 @@ It Is a Website For Guidance for future Achivement
 <br>
 2.Pujan Sarkar
 <br>
-3.Tuman Sutradhar
 
 # To Run This Project
 <h3>At First Folk This Repo</h3>
