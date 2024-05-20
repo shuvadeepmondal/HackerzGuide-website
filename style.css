@@ -715,196 +715,116 @@ header{
     resize: none;
   }
   
-  /* ends */
-   
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:1200px){
-    html{
-      font-size: 55%;
-    }
-  }
-  
-  @media(max-width:991px){
-      header{
-        padding:2rem;
-      }
-  
-  }
-  @media(max-width:768px){
-      #menu-bar{
-          display: initial;
-      }
-      header .navbar{
-          position: absolute;
-          top:100% ; right: 0; left: 0;
-          background: #333;
-          border-top: .1rem solid rgba(255, 255, 255, .2);
-          padding: 1rem 2rem;
-          clip-path: polygon(0 0, 100% 0,100% 0, 0 0);
-      }
-      header .navbar.active{
-          clip-path:polygon(0 0,100%0, 100% 100%,0 100%);
-      }
-      header .navbar a{
-          display: block;
-          border-radius: .5rem;
-          padding: 1.4rem;
-          margin: 1.5rem 0;
-          background:#222;
-      }
-    
-  }
-  @media(max-width:450px){
-    html{
-      font-size: 50%;
-    }
-    .contact .row  form .inputBox input{
-        width: 100%;
-    }
-  }
-
-.footer{
-    background: #333;
- }
- .footer .box-container{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10rem;
- }
- .footer.box-container .box{
-    padding: 1rem 0;
-    flex:1 1 25rem;
- }
- .footer .box-container .box h3{
-    font-size: 2.5rem;
-    padding: .7rem 0;
-    color:#fff;
-    text-decoration: none;
- }
- .footer .box-container .box p{
-    font-size: 1.5rem;
-    text-decoration: none;
-    padding: .7rem 0;
-    color: #eee;
- }
- .footer .box-container .box a{
-    display: block;
-    font-size: 1.5rem;
-    padding: .7rem 0;
-    color: #eee;
- }
- .footer .box-container .box a:hover{
-    color: #00ffff;
- }
- 
-
-.footer .box-container .follow h3{
-    font-size: 2.5rem;
-    padding: .7rem 0;
-    color:#fff;
-    width: 90%;
-}
-.footer .box-container .follow a{
-    padding: 10px;
-    font-size: 2rem;
-}
-.credit{
-    background-color: #222;
-    font-size: 1.5rem;
-    font-weight: normal;
-    text-align: center;
-    color: #eee;
-    margin-top: 1rem;
-    padding: 2rem 1rem;
-
-}
-.credit span{
-    color: #ecc00d;
-}
-@media only screen and (max-width: 360px) {
+/* Media queries optimized for iPhone 14 Pro Max */
+@media only screen and (max-width: 428px) {
+  /* Adjust font sizes */
   html {
-      font-size: 40%;
+      font-size: 55%; /* Adjust base font size */
+  }
+  header {
+      padding: 2rem;
+  }
+  header .navbar {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      left: 0;
+      background: #333;
+      border-top: .1rem solid rgba(255, 255, 255, .2);
+      padding: 1rem 2rem;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  header .navbar.active {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  header .navbar a {
+      display: block;
+      border-radius: .5rem;
+      padding: 1.4rem;
+      margin: 1.5rem 0;
+      background: #222;
   }
 
+  /* Adjust contact form */
+  .contact .row form .inputBox input {
+      width: 100%;
+  }
+
+  /* Adjust home content */
   .home .content {
       margin-left: 2rem;
       margin-bottom: 15rem;
   }
 
+  /* Adjust image size in contact */
   .contact .row .image img {
       width: 25rem;
       height: 25rem;
   }
 
+  /* Adjust footer */
   .footer .box-container {
       justify-content: center;
       gap: 5rem;
   }
-
   .footer .box-container .box {
       flex: 1 1 20rem;
   }
-
-  .footer .box-container .follow h3 {
-      width: auto;
-  }
-
   .footer .box-container .follow a {
       font-size: 1.7rem;
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
+  /* Further adjustments for smaller screens */
   html {
-      font-size: 35%;
+      font-size: 50%;
   }
-
   .home .content {
       margin-left: 1rem;
       margin-bottom: 10rem;
   }
-
   .contact .row .image img {
       width: 20rem;
       height: 20rem;
   }
-
   .footer .box-container .follow a {
       font-size: 1.5rem;
   }
 }
+
+
+  /* ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
